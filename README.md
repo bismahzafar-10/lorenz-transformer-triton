@@ -13,7 +13,10 @@ A high-performance, hardware-accelerated **Physics-Informed Neural Network (PINN
 ### 1. 3D Chaotic Trajectory Invariant Mapping
 In chaotic manifolds, minor evaluation variances trigger cascading prediction failures over long sequences. Driven by physics-informed local constraints, our Transformer closely matches the global geometric invariants of the dual-lobe butterfly manifold computed by fourth-order scientific solvers:
 
-![Lorenz System Mapping](results.png)
+<img width="1590" height="490" alt="image" src="https://github.com/user-attachments/assets/43f45b19-a1d6-481f-8f1f-37a3c6704d30" />
+
+<img width="1590" height="490" alt="image" src="https://github.com/user-attachments/assets/0a9606c7-0548-448a-8fcb-180624f41005" />
+
 
 ### 2. Operational Benchmark Progression
 Our development progression systematically cleared critical latency boundaries while scaling up model parameter budgets:
