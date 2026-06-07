@@ -38,44 +38,27 @@ Ensure your host machine features an NVIDIA GPU with functional CUDA drivers and
 
 ### 1. Clone and Install Dependencies
 ```bash
-git clone [https://github.com/YOUR_USERNAME/lorenz-transformer-triton.git](https://github.com/YOUR_USERNAME/lorenz-transformer-triton.git)
+git clone [https://github.com/bismahzafar-10/lorenz-transformer-triton.git](https://github.com/bismahzafar-10/lorenz-transformer-triton.git)
 cd lorenz-transformer-triton
 pip install -r requirements.txt
 ```
+
+
 
 ### 2. Execute Training and Hardware Benchmarking
 Run the main pipeline loop to simulate data, optimize the model layout, execute the custom Triton compilation grid, and export the tracking plots:
 
 ```bash
-python main.py
+python main.py  
 ```
+
+
 ---
 
-## 🚀 Step 3: How to upload this to GitHub (For Beginners)
-
-If this is your first time using GitHub, follow these exact terminal commands to push your project live:
-
-1. **Create an account** on [GitHub](https://github.com/) if you haven't already.
-2. Click the **"+" icon** in the top-right corner and select **New repository**.
-3. Name it **`lorenz-transformer-triton`**, make it **Public**, leave "Add a README" unchecked, and click **Create repository**.
-4. Open your terminal or command prompt, navigate into your project folder, and run these commands:
+### 📤 Update your repository:
+Once you update the text in VS Code, run these quick commands in your terminal to sync the clean version straight up to your live link:
 
 ```bash
-git init
-
-
-git add .
-
-
-git commit -m "Initial commit: Complete Triton-Fused Causal Transformer Pipeline"
-
-
-git remote add origin https://github.com/bismahzafar-10/lorenz-transformer-triton.git
-
-
-git branch -M main
-
-
-git push -u origin main
-
-```
+git add README.md
+git commit -m "docs: finalize showcase layout and remove setup guide"
+git push origin main
